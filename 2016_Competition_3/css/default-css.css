@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{box-sizing:border-box; padding:0; margin:0;}
+body{font-family:'맑은 고딕'; font-size:0.88em; color:#333;}
+fieldset{border:0}
+legend{display:none}
+a{text-decoration:none; color:#666}
+a:hover{text-decoration:none; color:#999}
+
+
+/*Screen*/
+.screen{width:100%; height:100%; position:absolute}
+
+	/*Bar*/
+	.bar{width:100%; line-height:50px; background:#000; position:fixed; z-index:400}
+		.bar-inner{max-width:1700px; margin:0 auto;}
+		.bar-inner a img{vertical-align:middle;}
+		.bar-inner .left-btn{width:20%; float:left; text-align:left; padding-left:20px;}
+		.bar-inner .center-title{width:60%; float:left; font-size:1.25em; color:#fff; font-weight:bold; text-align:center}
+		.bar-inner .right-btn{width:20%; float:left; text-align:right; padding-right:20px;}
+	.wrap{width:1200px; height:100%; margin:0 auto; position:relative; padding-top:70px; background:none}
+.wrap svg {
+	position: relative;
+	width: 100%;
+	margin:0 auto;
+}
+.st0, svg text {
+    cursor: pointer;
+}
+.st0:hover {
+	fill: #777;
+}
+.infor-div{
+    position: relative;
+    width: 100%;
+    height: 30%;
+}
+.infor-text-div span:nth-of-type(2n-1){
+    position: relative;
+    margin-right:50px;
+    margin-bottom:20px;
+}
+.infor-site {
+    margin-right:18px !important;
+}
+.infor-text-div > p {
+    margin-bottom: 3px;
+}
+.infor-text-div > p:last-child {
+    margin-top: 10px;
+    font-size: .9em;
+}
+.infor-img-div {
+    position: relative;
+    margin-right:100px;
+    height: 300px;
+    float: left;
+}
+.infor-img-div img {
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+}
+.infor-text-div h1 {
+    margin-bottom:20px;
+}
+.left-btn {
+    visibility: hidden;
+}
+.admin-wrap {
+    position: relative;
+    padding-top:20px;
+    width: 600px;
+    margin: 0 auto ;
+}
+.admin-wrap input {
+    position: relative;
+    display: block;
+    width: 600px;
+    margin-bottom: 10px;
+    height: 30px;
+    padding: 2px;
+    padding-left:10px;
+    border-radius: 5px;
+    border:1px solid #777
+}
+.admin-wrap button {
+    width: 600px;
+    background-color: #000000;
+    height: 35px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+.admin-wrap button:hover {
+    background-color: #ccc;
+    color: #454545;
+    border: 1px solid #454545;
+}
+.admin-drag-div {
+    position: relative;
+    width: 565px;
+    height: 330px;
+    background-color: #cccccc;
+}
+.admin-drag-div p {
+    text-align: center;
+    line-height:330px;
+}
+.admin-city{
+    position: relative;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+.title-center {
+    width: 70%;
+    text-align: right;
+}
+.infor-data-div {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 112px;
+}
+.info-data, .info-data-btn {
+    position: relative;
+    float: left;
+    width: 320px;
+    height:240px;
+    margin-right:100px;
+    margin-bottom:50px;
+    border:none;
+}
+.info-data:nth-child(3n) {
+    margin-right: 0;
+}
+.hidden-data {
+    display: none;
+}
+#canvas {
+    position: relative;
+    width: 320px;
+    height: 240px;
+}
